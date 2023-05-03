@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.markdown("# Enrique aka Kike Diaz")
+st.markdown("# Enrique aka Kike Diaz aka K")
 st.markdown("## Machine Learning Engineer and Startup junki3")
 st.markdown("""
     
