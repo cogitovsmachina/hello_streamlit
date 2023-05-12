@@ -1,8 +1,32 @@
 import streamlit as st
 
-st.markdown("# Enrique aka Kike Diaz")
-st.markdown("# aka K")
-st.markdown("# aka Sensei ML Dojo")
+st.title('My Portfolio')
+page = st.sidebar.selectbox("Choose a page", ["Homepage", "Projects", "About Me"])
+
+if page == "Homepage":
+    st.header("Welcome to my personal portfolio website!")
+    st.subheader("This is a brief introduction about myself and the work I do.")
+    #st.image("path_to_your_image.jpg")  # add a picture if you'd like
+
+elif page == "Projects":
+    st.header("My Projects")
+    st.markdown("## Project 1")
+    st.markdown("Description about Project 1")
+    st.markdown("## Project 2")
+    st.markdown("Description about Project 2")
+
+elif page == "About Me":
+    st.header("About Me")
+    st.markdown("## Education")
+    st.markdown("Details about your education")
+    st.markdown("## Experience")
+    st.markdown("Details about your work experience")
+
+
+
+st.markdown("### Enrique Diaz")
+st.markdown("# Machine Learning Sensei")
+
 st.markdown("## Machine Learning Engineer and Startup junki3")
 st.markdown("""
     
